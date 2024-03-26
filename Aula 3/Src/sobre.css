@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto';
+
+}
+
+.topo {
+    padding: 0px, 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ccc;
+
+}
+
+main {
+    padding: 20px, 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(122, 128, 141, 0.2)
+}
+
+section,
+aside {
+    width: 45%;
+    padding: 20px;
+}
+
+section header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(122, 128, 141, 0.5);
+    color: white;
+   
+}
+
+section div {
+    text-align: justify;
+    color: black;
+    padding-inline-start: 10px;
+    background-color: rgba(122, 128, 141, 0.2);
+  
+    
+}
+
+aside div {
+    text-align: justify;
+    color: black;
+    padding-inline-start: 10px;
+    background-color: rgba(122, 128, 141, 0.2);
+    
+
+}
+
+aside header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(122, 128, 141, 0.5);
+    color: white;
+  
+}
